@@ -1,12 +1,6 @@
 <aura:component >
-    <h1>Vas Enterprise</h1>
-    <div>
-        <div class="red">I m red</div>
-        <div class="blue">I m blue</div>
-        <div class="green">I m green</div>
-        <ltng:require  styles="/resourse/bootstrap" />
-        <div class="myBoostrap" >
-        	Greetings
-        </div>
-    </div>
+    <aura:attribute name="num1"  type="Integer" default="10" />
+    <aura:attribute name="num2"  type="Integer" default="20" />
+    <aura:attribute name="sum"  type="Integer" />
+    {!v.num1} + {!v.num2}
 </aura:component>
