@@ -1,0 +1,9 @@
+<aura:component >
+    <h1>Vas Enterprise</h1>
+    <div>
+        <div class="red">I m red</div>
+        <div class="blue">I m blue</div>
+        <div class="green">I m green</div>
+
+    </div>
+</aura:component>
