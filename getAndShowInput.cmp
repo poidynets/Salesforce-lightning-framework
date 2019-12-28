@@ -1,0 +1,6 @@
+<aura:component >
+    <ui:inputText label="Name" aura:Id="name" placeholder="Enter your name" /> <br></br>
+    <ui:outputText aura:Id="nameOutput" value="" />
+    <ui:button aura:Id="buttonId" label="Hit me!" press="{!c.getInput}" />
+    
+</aura:component>
