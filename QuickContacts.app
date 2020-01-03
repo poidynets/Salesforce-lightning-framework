@@ -12,11 +12,14 @@
     
     <div class="container">
         <div class="row">
-            <div class="col-sm-12">
+            <div class="col-sm-4">
                 <c:SearchBar />
                 <c:ContactList />
                 
-   </div>
+            </div>
+            <div class="col-sm-8">
+                <c:ContactDetails />   
+            </div>
         </div>
     </div>
     
